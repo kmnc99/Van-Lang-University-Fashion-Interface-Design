@@ -1,0 +1,131 @@
+.footer {
+    box-sizing: border-box;
+    padding: 3.2rem 1.9rem 0.9rem 5.65rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2251;
+    flex-shrink: 0;
+    font-family: Quicksand, 'Source Sans Pro';
+  }
+  .footer .auto-group-s5tx-NiV {
+    margin: 0rem 5.15rem 1.4rem 0rem;
+    width: 131.2rem;
+    height: 15.3rem;
+    position: relative;
+    flex-shrink: 0;
+  }
+  /* chữ logo lớn */
+.footer .auto-group-s5tx-NiV .van-lang-fashion-UFj {
+    /* width: 27rem;
+    height: 15.3rem; */
+    width: 100%;
+    margin-left: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 1.2999999523;
+    color: #ffffff;
+    font-family: Calistoga, 'Source Sans Pro';
+  }
+  /* dòng cuối cùng */
+.footer .auto-group-s5tx-NiV .email-thoitrangvanlangvlueduvn-aJm {
+    width: 38rem;
+    height: 6.3rem;
+    position: absolute;
+    left: 31.8rem;
+    top: 1.1rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.2102272727;
+    color: #ffffff;
+    font-family: Quicksand, 'Source Sans Pro';
+  }
+  /* email  */
+.footer .auto-group-s5tx-NiV .email-thoitrangvanlangvlueduvn-aJm .email-thoitrangvanlangvlueduvn-aJm-sub-0 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2102272727;
+    color: #ffffff;
+    font-family: Quicksand, 'Source Sans Pro';
+  }
+  /* hỗ trợ */
+.footer .auto-group-s5tx-NiV .h-tr-02812345678-pMX {
+    width: 15.6rem;
+    height: 6.3rem;
+    position: absolute;
+    left: 76rem;
+    top: 1.1rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.2102272727;
+    color: #ffffff;
+    font-family: Quicksand, 'Source Sans Pro';
+  }
+.h-tr-02812345678-pMX-sub-0{
+  font-weight: bold;
+}
+  /* cái line trên */
+.footer .auto-group-s5tx-NiV .line-14-9o7 {
+    width: 131.2rem;
+    height: 0.1rem;
+    position: absolute;
+    left: 0;
+    top: 12.7rem;
+    background-color: #acacac;
+  }
+  /* thông tin ở giữa */
+.footer .auto-group-wz4h-H8d {
+    margin: 0rem 2.5rem 2.5rem 0rem;
+    width: 131.2rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  /* thông tin ở giữa */
+.footer .auto-group-wz4h-H8d .theo-di-jWR {
+    margin: 0rem 5rem 0.4rem 0rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.2102272727;
+    color: #ffffff;
+    font-family: Quicksand, 'Source Sans Pro';
+    /* white-space: nowrap; */
+    flex-shrink: 0;
+  }
+  /* tô đậm title của thông tin giữa */
+.footer .auto-group-wz4h-H8d .theo-di-jWR .title{
+    font-weight: 700;
+  }
+.footer .auto-group-wz4h-H8d .footer-fQ5 {
+    max-width: 75.2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #ffffff;
+    font-family: Quicksand, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  /* cái line cuối */
+.footer .line-15-uNH {
+    margin: 0rem 5.35rem 0.9rem 0rem;
+    width: 131.2rem;
+    height: 0.1rem;
+    background-color: #acacac;
+    flex-shrink: 0;
+  }
+  /* dòng chữ cuối cùng */
+.footer .van-lang-university-all-rights-reserved-RrR {
+    margin-left: 1.25rem;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.25;
+    color: #ffffff;
+    font-family: Quicksand, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  

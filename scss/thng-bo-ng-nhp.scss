@@ -1,0 +1,112 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 53rem;
+}.thng-bo-ng-nhp-keM {
+  align-items: center;
+  border: dashed 0.1rem #9747ff;
+  padding: 2rem 6.7rem 21.2rem 6.8rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+
+  .property-1xem-thm-kAV {
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 1.4rem;
+    font-family: Calibri, 'Source Sans Pro';
+    color: #000000;
+    align-items: center;
+    margin: 0rem 16.9rem 3.8rem 16.8rem;
+    font-weight: 300;
+    text-decoration-line: underline;
+    white-space: nowrap;
+    width: calc(100% - 33.7rem);
+    height: 1.7rem;
+    display: flex;
+    cursor: pointer;
+    line-height: 1.220703125;
+  }
+  .property-1thng-bo-ng-nhp-1kd {
+    border: solid 0.3rem #000000;
+    border-radius: 3rem;
+    flex-shrink: 0;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 0.263rem 3.661rem 5.329rem 3.661rem;
+
+    .van-lang-fashion-VBw {
+      margin: 0rem 25.629rem 2.96rem 0rem;
+      max-width: 6.5502rem;
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 1.3;
+      color: #ffffff;
+      font-family: Calistoga, 'Source Sans Pro';
+      flex-shrink: 0;
+    }
+    .ng-nhp-xem-chi-tit-umT {
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.220703125;
+      color: #000000;
+      font-family: Calibri, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin: 0rem 10.508rem 1.463rem 0rem;
+    }
+    .ng-nhp-kGH {
+      font-family: Calibri, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      font-size: 1.6rem;
+      line-height: 1.220703125;
+      font-weight: 300;
+      text-decoration-line: underline;
+      color: #000000;
+      margin: 0rem 22.9rem 1.539rem 0rem;
+      cursor: pointer;
+    }
+    .group-98-Cty {
+      flex-shrink: 0;
+      color: #ffffff;
+      background-color: #1e6bc4;
+      cursor: pointer;
+      line-height: 1.220703125;
+      align-items: center;
+      justify-content: center;
+      width: 5.1715rem;
+      height: 2.4311rem;
+      font-weight: 400;
+      font-family: Calibri, 'Source Sans Pro';
+      margin-left: 17.5656rem;
+      text-align: center;
+      display: flex;
+      border-radius: 0.5rem;
+      font-size: 1.6rem;
+      white-space: nowrap;
+    }
+  }
+}

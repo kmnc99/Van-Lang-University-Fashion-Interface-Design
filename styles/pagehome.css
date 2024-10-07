@@ -1,0 +1,790 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+.project-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+#hoverimg:hover{
+  transform: scale(1.2);
+  transition-duration: 0.7s;
+
+}
+
+
+.component {
+  width: 22rem;
+  height: 33rem;
+  cursor: pointer;
+  position: relative;
+  /* position: absolute; */
+  left: 13.5rem;
+  /* top: 4.6rem; */
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9200000167) 15.02%, #ffffff 29.6%, rgba(197, 197, 197, 0.784430027) 84.29%, rgba(145, 145, 145, 0.784430027) 100%);
+  /* border-radius: 1rem; */
+  overflow: hidden;
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+  transition: transform 0.3s;
+  margin-right:9.5rem ;
+}
+.component .student-name{
+  width: 9.1rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 29.9rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+  
+}
+.component .rectangle-img {
+  width: 19.9rem;
+  height: 25.8rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 0.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.5rem 1.5rem 0 0;
+  object-fit: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ kích thước của phần tử */
+  transition: transform 0.6s ease-out;
+}
+
+.component:hover .rectangle-img {
+  transform: scale(1.3); /* Phóng to hình ảnh khi hover */
+  transform-origin: center top;
+  transition: transform 0.3s ease-out;
+
+}
+.name-project {
+  opacity: 1;
+  transition:inherit 1s;
+}
+.component:hover .name-project {
+  opacity: 0;
+}
+.component .name-project {
+  width: 9.5rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 27.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+  
+}
+.title-top{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project-container .auto-group-a4o3-qBF {
+  box-sizing: border-box;
+  padding: 4.9rem 10.2rem 19.3rem 10%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+/* div đầu tiên */
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT {
+  margin: auto;
+  /* width: calc(100% - 2.2rem); */
+  height: 45.1rem;
+  display: flex;
+  /* align-items: center; */
+  /* flex-shrink: 0; */
+}
+/* những ảnh đầu tiên */
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .introductory-image-1-s7w {
+  margin-left: 10%;
+  /* align-items: left; */
+  /* width: 52.4001rem; */
+  /* height: 100%; */
+  position: relative;
+  /* flex-shrink: 0; */
+  box-sizing: border-box;
+  /* padding: 9rem 13.5rem 7rem 13rem; */
+  width: 100%;
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+}
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .introductory-image-1-s7w .rectangle-72-bZj {
+  width: 18.2021rem;
+  height: 17.0805rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 10rem 0 0 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .introductory-image-1-s7w .rectangle-73-8Jm {
+  width: 15.1685rem;
+  height: 14.2977rem;
+  position: absolute;
+  left: 20.96rem;
+  top: 11.227rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0 10rem 0 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .introductory-image-1-s7w .rectangle-74-rEm {
+  width: 9.4688rem;
+  height: 11.1311rem;
+  position: absolute;
+  left: 8.4576rem;
+  top: 19.9592rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0 0 0 5rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .introductory-image-1-s7w .rectangle-75-Zey {
+  width: 6.5271rem;
+  height: 5.9494rem;
+  position: absolute;
+  left: 20.96rem;
+  top: 2.6867rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 2.4rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .introductory-image-1-s7w .rectangle-76-697 {
+  width: 11.0315rem;
+  height: 14.1057rem;
+  position: absolute;
+  left: 21.7873rem;
+  top: 28.9791rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0 0 6rem 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .introductory-image-1-s7w .rectangle-77-22m {
+  width: 8.6414rem;
+  height: 8.2523rem;
+  position: absolute;
+  left: 32.8189rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0 5rem 0 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .introductory-image-1-s7w .rectangle-78-Maq {
+  width: 11.6751rem;
+  height: 11.0352rem;
+  position: absolute;
+  left: 0;
+  top: 34.0648rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0 0 0 9rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .introductory-image-1-s7w .rectangle-79-sp5 {
+  width: 13.6976rem;
+  height: 12.8582rem;
+  position: absolute;
+  left: 38.7025rem;
+  top: 23.4137rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0 0 9rem 0;
+}
+/* nội dung đầu tiên */
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .auto-group-si7b-zth {
+  /* margin: 0rem 0rem 14.8rem 0rem; */
+  /* width: 100rem; */
+  /* height: calc(100% - 22.3rem); */
+  margin-top: 50px;
+  margin-left: 20%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* flex-shrink: 0; */
+}
+/* heading của nội dung đầu tiên */
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .auto-group-si7b-zth .heading-1-iZo {
+  margin: 0rem 3.8rem 3.1rem 0rem;
+  display: flex;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Quicksand, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+/* .project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .auto-group-si7b-zth .auto-group-a4sm-pMw {
+  width: 100%;
+  height: 12.7rem;
+  flex-shrink: 0;
+} */
+.project-container .auto-group-a4o3-qBF .auto-group-tq6u-YbT .auto-group-si7b-zth .auto-group-a4sm-pMw .para {
+  /* word-wrap: break-word; */
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Quicksand, 'Source Sans Pro';
+}
+.project-container .auto-group-a4o3-qBF .heading-2-rhw {
+  margin: 0rem 0rem 2.379rem 1.8rem;
+  display: flex;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Quicksand, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .introductory-title-2-ATj {
+  margin: 0rem 7.519rem 5.988rem 4.958rem;
+  box-sizing: border-box;
+  padding: 1.421rem 3.781rem 0.712rem 8.542rem;
+  width: calc(100% - 12.4774rem);
+  height: 11.5328rem;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .introductory-title-2-ATj .parathoitranggioithieu{
+  /* max-width: 95.5rem; */
+  /* width: 70%; */
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Quicksand, 'Source Sans Pro';
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw {
+  margin: 0rem 3.3rem 6.7rem -18rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-34-uTF {
+  margin: 0.3rem 9.1rem 0rem 0rem;
+  width: 22rem;
+  height: 33rem;
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9200000167) 15.02%, #ffffff 29.6%, rgba(197, 197, 197, 0.784430027) 84.29%, rgba(145, 145, 145, 0.784430027) 100%);
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-34-uTF .student-name-student-d8M {
+  width: 9.1rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 29.9rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-34-uTF .rectangle-152-KG5 {
+  width: 19.9rem;
+  height: 25.8rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 0.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem 1rem 0 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-34-uTF .name-project-dGm {
+  width: 9.5rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 27.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-35-TWh {
+  margin: 0.3rem 9.2rem 0rem 0rem;
+  width: 22rem;
+  height: 33rem;
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9200000167) 15.02%, #ffffff 29.6%, rgba(197, 197, 197, 0.784430027) 84.29%, rgba(145, 145, 145, 0.784430027) 100%);
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-35-TWh .student-name-student-BBo {
+  width: 8.6rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 29.9rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-35-TWh .rectangle-152-Gj3 {
+  width: 19.9rem;
+  height: 25.8rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 0.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem 1rem 0 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-35-TWh .name-project-nxH {
+  width: 7.4rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 27.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-36-EpH {
+  margin: 0rem 8.9rem 0.3rem 0rem;
+  width: 22rem;
+  height: 33rem;
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9200000167) 15.02%, #ffffff 29.6%, rgba(197, 197, 197, 0.784430027) 84.29%, rgba(145, 145, 145, 0.784430027) 100%);
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-36-EpH .student-name-student-ZrZ {
+  width: 9.3rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 29.9rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-36-EpH .rectangle-152-VER {
+  width: 19.9rem;
+  height: 25.8rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 0.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem 1rem 0 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-36-EpH .name-project-cpq {
+  width: 7.4rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 27.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-37-Uc9 {
+  margin-bottom: 0.3rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.5rem 1.1rem;
+  width: 22rem;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9200000167) 15.02%, #ffffff 29.6%, rgba(197, 197, 197, 0.784430027) 84.29%, rgba(145, 145, 145, 0.784430027) 100%);
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-37-Uc9 .rectangle-152-o8d {
+  margin-bottom: 1.3rem;
+  width: 19.9rem;
+  height: 25.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem 1rem 0 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-37-Uc9 .name-project-Woj {
+  margin: 0rem 0rem 0.3rem 0.2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-6csb-mbw .component-37-Uc9 .student-name-student-Ezd {
+  margin-left: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.220703125;
+  color: #000000;
+  font-family: Calibri, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo {
+  margin-right: 2.8rem;
+  width: 117.5rem;
+  height: 100.6rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw {
+  width: 117.3rem;
+  height: 75.7rem;
+  position: absolute;
+  left: 0;
+  top: 24.9rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-21-NjT {
+  width: 117rem;
+  height: 46.9rem;
+  position: absolute;
+  left: 0;
+  top: 28rem;
+  border-radius: 1rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-21-NjT .auto-group-cbsr-K8u {
+  margin: 0rem 0rem 1.2rem 0.3rem;
+  width: calc(100% - 0.3rem);
+  display: flex;
+  align-items: flex-start;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-21-NjT .auto-group-cbsr-K8u .image-3-qN9 {
+  margin-right: 26.2rem;
+  width: 47rem;
+  height: 38.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-21-NjT .auto-group-cbsr-K8u .chng-trnh-nhc-hi-ha-m-2023-l-mt-sn-chi-hon-ton-mi-dnh-cho-tt-c-cc-bn-sinh-vin-AfK {
+  margin-top: 3.9rem;
+  max-width: 43.5rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Quicksand, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-21-NjT .new-4-DNh {
+  width: 100%;
+  /* text-align: center; */
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #a10000;
+  font-family: Quicksand, 'Source Sans Pro';
+  /* white-space: nowrap; */
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-21-NjT .bst-ma-hoa-ca-th-khoa-thit-k-thi-trang-n-r-ti-cuc-thi-fashion-in-paris-xLH {
+  margin-left: 0.4rem;
+  max-width: 46.2rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Quicksand, 'Source Sans Pro';
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F {
+  width: 57rem;
+  height: 47.7rem;
+  position: absolute;
+  left: 60.3rem;
+  top: 28rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .casting-1-Lbj {
+  margin-bottom: 2rem;
+  width: 10rem;
+  height: 13.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .line-10-TwF {
+  margin-bottom: 1.7rem;
+  width: 50rem;
+  height: 0.1rem;
+  background-color: #cdcdcd;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .group-17-Qbb {
+  box-sizing: border-box;
+  padding-right: 0.3rem;
+  width: 100%;
+  height: 13.7rem;
+  display: flex;
+  align-items: center;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .group-17-Qbb .trienlam-2-YSu {
+  margin: 0rem 3.3rem 1.81rem 0rem;
+  width: 10rem;
+  height: 11.8898rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .group-17-Qbb .ni-dung-tin-tc-2-3uT {
+  max-width: 43.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Quicksand, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .line-11-yo7 {
+  margin-bottom: 2.1rem;
+  width: 50rem;
+  height: 0.1rem;
+  background-color: #cdcdcd;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .group-18-Xpd {
+  width: 100%;
+  height: 14.3rem;
+  position: relative;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .group-18-Xpd .ni-dung-tin-tc-3-gxR {
+  width: 43.4rem;
+  height: 7.1rem;
+  position: absolute;
+  left: 13.3rem;
+  top: 3.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Quicksand, 'Source Sans Pro';
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .group-18-Xpd .n-2-ziD {
+  width: 10rem;
+  height: 11.8898rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .group-20-25F .group-18-Xpd .line-12-KkV {
+  width: 50rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 13.3rem;
+  background-color: #cdcdcd;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .line-13-fZT {
+  width: 94.9rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 12.2rem;
+  top: 13.6rem;
+  background-color: #000000;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .heading-2-bi1 {
+  width: 32.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 21.2rem;
+  display: flex;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Quicksand, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .heading-6-Wpy {
+  width: 23.6rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 73.6rem;
+  top: 28rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #a10000;
+  font-family: Quicksand, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .heading-6-q6Z {
+  width: 24rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 73.6rem;
+  top: 44.9rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #a10000;
+  font-family: Quicksand, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .news-FPw .heading-6-9d3 {
+  width: 38.7rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 73.6rem;
+  top: 60.8rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #a10000;
+  font-family: Quicksand, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 {
+  width: 117.2rem;
+  height: 29rem;
+  position: absolute;
+  /* left: 0.3rem; */
+  top: 0;
+  display: flex;
+  column-gap: 6.5rem;
+  align-items: center;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 .auto-group-gg6v-oSh {
+  width: 25.7rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 .auto-group-gg6v-oSh .rectangle-92-Yv5 {
+  width: 23rem;
+  height: 29rem;
+  position: absolute;
+  left: 2.7rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 .auto-group-gg6v-oSh .group-37-BTF {
+  box-sizing: border-box;
+  padding: 2.1rem 2.4rem 2rem 2.4rem;
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 0;
+  top: 11.5rem;
+  background-color: #d9d9d9;
+  border-radius: 3rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 .auto-group-gg6v-oSh .group-37-BTF .vector-geu {
+  width: 1.2rem;
+  height: 1.9rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 .rectangle-93-D93 {
+  width: 23rem;
+  height: 29rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 .rectangle-94-kPs {
+  width: 23rem;
+  height: 29rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 .auto-group-uzob-hK7 {
+  width: 26rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 .auto-group-uzob-hK7 .rectangle-95-SnV {
+  width: 23rem;
+  height: 29rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.project-container .auto-group-a4o3-qBF .auto-group-jy8z-iuo .group-94-sZ3 .auto-group-uzob-hK7 .component-2-Bk5 {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 20rem;
+  top: 11.5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
